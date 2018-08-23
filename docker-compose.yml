@@ -1,0 +1,7 @@
+version: "2"
+services:
+  wakeup:
+    image: cgarnier/heroku-wakeup
+    environments:
+      APPS: "app1,app2"
+      

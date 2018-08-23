@@ -8,3 +8,5 @@
 # replace appX by your apps
 docker run -e APPS=app1,app2 -it cgarnier/heroku-wakeup
 ```
+
+or see the docker-compose.yml
